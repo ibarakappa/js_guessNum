@@ -1,0 +1,9 @@
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/functions";
+// 要寫在function之下  bootstrap之上  自定義
+@import "./stylesheet/helpers/variables";
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+// 自己寫的SCSS
+@import "./stylesheet/pages/home";
